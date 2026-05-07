@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -37,15 +38,8 @@ export default function Nav() {
     >
       <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 1.5rem', height: '72px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         {/* Logo */}
-        <Link href="/" style={{ textDecoration: 'none' }}>
-          <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1 }}>
-            <span style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.5rem', fontWeight: 500, color: 'var(--warm-brown)', letterSpacing: '0.02em' }}>
-              The Kelly Nest
-            </span>
-            <span style={{ fontFamily: 'var(--font-jost)', fontSize: '0.6rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--sage)', marginTop: '2px' }}>
-              Birth &amp; Postpartum Doula
-            </span>
-          </div>
+        <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+          <Image src="/logo.png" alt="The Kelly Nest" width={160} height={80} style={{ objectFit: 'contain' }} priority />
         </Link>
 
         {/* Desktop Nav */}

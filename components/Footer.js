@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -7,9 +8,7 @@ export default function Footer() {
       <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '4rem 1.5rem 2rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '3rem' }}>
         {/* Brand */}
         <div>
-          <h3 style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.75rem', fontWeight: 400, color: 'var(--warm-brown)', marginBottom: '0.75rem' }}>
-            The Kelly Nest
-          </h3>
+          <Image src="/logo.png" alt="The Kelly Nest" width={180} height={90} style={{ objectFit: 'contain' }} />
           <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', lineHeight: 1.7, color: 'var(--stone)', maxWidth: '220px' }}>
             Supporting families through the sacred journey of birth and beyond.
           </p>
