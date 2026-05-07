@@ -37,10 +37,10 @@ export default function Services() {
               Birth Doula
             </h2>
             <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.95rem', lineHeight: 1.85, color: 'var(--stone)', marginBottom: '1.25rem' }}>
-              [Placeholder: Description of your birth doula support. Talk about what's included — prenatal visits, on-call availability, continuous labor support, immediate postpartum time, etc.]
+              As your birth doula, I provide steady emotional, physical, and informational support throughout pregnancy, labor, and birth. My goal is to help you feel safe, informed, empowered, and deeply supported as you navigate your unique birth experience.
             </p>
             <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.95rem', lineHeight: 1.85, color: 'var(--stone)', marginBottom: '2rem' }}>
-              [Placeholder: What makes your birth doula support distinctive. Your presence, communication style, comfort techniques, partner support, etc.]
+              I offer continuous encouragement, comfort measures, advocacy support, breathing and positioning guidance, and a calm grounding presence for both you and your partner. I believe birth is a transformative experience, and I strive to create a space where families feel respected, heard, and supported in making the choices that feel right for them.
             </p>
             <div style={{ marginBottom: '2rem' }}>
               <h3 style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--terracotta)', marginBottom: '1rem' }}>What's Included</h3>
