@@ -51,7 +51,6 @@ export default function Services() {
                 'Immediate postpartum support',
                 'Unlimited phone/text/email access',
                 'Birth preferences review',
-                '[Placeholder item]',
               ].map((item) => (
                 <div key={item} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', marginBottom: '0.6rem' }}>
                   <span style={{ color: 'var(--sage)', fontSize: '0.85rem', marginTop: '2px', flexShrink: 0 }}>✦</span>
@@ -112,7 +111,6 @@ export default function Services() {
                 'Sibling &amp; family adjustment',
                 'Emotional support &amp; recovery',
                 'Resource &amp; referral network',
-                '[Placeholder item]',
               ].map((item) => (
                 <div key={item} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', marginBottom: '0.6rem' }}>
                   <span style={{ color: 'var(--sage)', fontSize: '0.85rem', marginTop: '2px', flexShrink: 0 }}>✦</span>
