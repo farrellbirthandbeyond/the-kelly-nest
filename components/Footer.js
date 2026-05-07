@@ -1,0 +1,70 @@
+import Link from 'next/link';
+
+export default function Footer() {
+  const year = new Date().getFullYear();
+  return (
+    <footer style={{ backgroundColor: 'var(--cream-dark)', borderTop: '1px solid var(--cream-deeper)', marginTop: '6rem' }}>
+      <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '4rem 1.5rem 2rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '3rem' }}>
+        {/* Brand */}
+        <div>
+          <h3 style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.75rem', fontWeight: 400, color: 'var(--warm-brown)', marginBottom: '0.75rem' }}>
+            The Kelly Nest
+          </h3>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', lineHeight: 1.7, color: 'var(--stone)', maxWidth: '220px' }}>
+            Supporting families through the sacred journey of birth and beyond.
+          </p>
+          <div style={{ display: 'flex', gap: '1rem', marginTop: '1.25rem' }}>
+            <a href="#" style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--sage)', textDecoration: 'none' }}>Instagram</a>
+            <a href="#" style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--sage)', textDecoration: 'none' }}>Facebook</a>
+          </div>
+        </div>
+
+        {/* Navigation */}
+        <div>
+          <h4 style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--terracotta)', marginBottom: '1.25rem' }}>
+            Navigate
+          </h4>
+          <nav style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+            {[['/', 'Home'], ['/about', 'About Farrell'], ['/services', 'Services'], ['/testimonials', 'Testimonials'], ['/contact', 'Contact']].map(([href, label]) => (
+              <Link key={href} href={href} style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', color: 'var(--warm-brown)', textDecoration: 'none' }}>
+                {label}
+              </Link>
+            ))}
+          </nav>
+        </div>
+
+        {/* Contact */}
+        <div>
+          <h4 style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--terracotta)', marginBottom: '1.25rem' }}>
+            Get in Touch
+          </h4>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', color: 'var(--warm-brown)', marginBottom: '0.4rem' }}>hello@thekellynest.com</p>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', color: 'var(--warm-brown)', marginBottom: '1.5rem' }}>Denver Metro Area, CO</p>
+          <Link
+            href="/contact"
+            style={{
+              display: 'inline-block',
+              fontFamily: 'var(--font-jost)',
+              fontSize: '0.65rem',
+              letterSpacing: '0.16em',
+              textTransform: 'uppercase',
+              backgroundColor: 'var(--terracotta)',
+              color: 'white',
+              padding: '0.6rem 1.25rem',
+              borderRadius: '100px',
+              textDecoration: 'none',
+            }}
+          >
+            Book a Free Consultation
+          </Link>
+        </div>
+      </div>
+
+      <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '1.5rem', borderTop: '1px solid var(--cream-deeper)', textAlign: 'center' }}>
+        <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', color: 'var(--stone)', letterSpacing: '0.05em' }}>
+          © {year} The Kelly Nest · Farrell Kelly · All rights reserved
+        </p>
+      </div>
+    </footer>
+  );
+}
