@@ -131,7 +131,7 @@ export default function Home() {
               {
                 icon: '✨',
                 title: 'Consultations',
-                desc: 'Not sure what kind of support you need? Let's chat. Free 30-minute calls to explore your options with zero pressure.',
+                desc: "Not sure what kind of support you need? Let's chat. Free 30-minute calls to explore your options with zero pressure.",
                 href: '/contact',
               },
             ].map((s) => (
