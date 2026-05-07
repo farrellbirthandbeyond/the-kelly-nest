@@ -55,10 +55,9 @@ export default function About() {
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '1.5rem' }}>
             {[
-              { title: 'Certified Birth Doula', body: '[Certifying organization — e.g., DONA International]' },
-              { title: 'Certified Postpartum Doula', body: '[Certifying organization]' },
-              { title: '[Additional Training]', body: '[e.g., Childbirth Education, Lactation Support, etc.]' },
-              { title: '[Additional Training]', body: '[Placeholder for any other credentials]' },
+              { title: 'Certified Birth Doula', body: 'BEST Doula' },
+              { title: 'Certified Postpartum Doula', body: 'Birth and Baby University' },
+              { title: 'Certified Birth Doula', body: 'Birth and Baby University' },
             ].map((c) => (
               <div key={c.title} style={{ backgroundColor: 'white', borderRadius: '16px', padding: '1.75rem', border: '1px solid var(--cream-deeper)' }}>
                 <div style={{ width: '32px', height: '3px', backgroundColor: 'var(--sage)', borderRadius: '2px', marginBottom: '1rem' }} />
