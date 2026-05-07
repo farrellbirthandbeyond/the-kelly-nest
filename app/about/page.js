@@ -37,7 +37,7 @@ export default function About() {
               Hi, I&apos;m Farrell Kelly.
             </h1>
             <p style={{ fontFamily: 'var(--font-jost)', fontSize: '1rem', lineHeight: 1.85, color: 'var(--stone)', marginBottom: '1.25rem' }}>
-              I&apos;m a certified Birth and Postpartum Doula based in the south Denver metro, passionate about supporting families through pregnancy, birth, and the postpartum transition with a calm, grounded, and compassionate presence. I believe every family deserves to feel informed, supported, and deeply cared for during this transformative season of life.
+              I&apos;m a certified Birth and Postpartum Doula based in the south Denver metro, passionate about supporting families through pregnancy, birth, and the postpartum transition with a calm, grounded, and compassionate presence. As a mother of four and grandmother of two, I bring not only professional training but lived experience to every family I serve. I believe every family deserves to feel informed, supported, and deeply cared for during this transformative season of life.
             </p>
             <p style={{ fontFamily: 'var(--font-jost)', fontSize: '1rem', lineHeight: 1.85, color: 'var(--stone)' }}>
               My approach is centered around creating a safe and nurturing space where parents feel empowered in their choices and supported emotionally, physically, and practically. Whether I&apos;m providing reassurance during labor, helping care for a newborn, or simply making sure a family feels seen and cared for, I strive to bring warmth, steadiness, and genuine support into every experience.
