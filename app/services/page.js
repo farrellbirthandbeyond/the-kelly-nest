@@ -137,9 +137,7 @@ export default function Services() {
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.5rem' }}>
             {[
-              { title: '[Placeholder Service]', desc: '[Description of an additional service you offer — e.g., placenta encapsulation, childbirth education, virtual doula support, etc.]' },
-              { title: '[Placeholder Service]', desc: '[Description of another additional service.]' },
-              { title: 'Free Consultation', desc: 'Not sure what you need? Book a free 30-minute call and let\'s figure it out together.' },
+              { title: 'Free Consultation', desc: "Not sure what you need? Book a free 30-minute call and let's figure it out together." },
             ].map((s) => (
               <div key={s.title} style={{ border: '1px solid var(--cream-deeper)', borderRadius: '16px', padding: '2rem' }}>
                 <h3 style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.4rem', color: 'var(--warm-brown)', marginBottom: '0.75rem' }}>{s.title}</h3>
