@@ -25,7 +25,7 @@ export default function Footer() {
             Navigate
           </h4>
           <nav style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
-            {[['/', 'Home'], ['/about', 'About Farrell'], ['/services', 'Services'], ['/testimonials', 'Testimonials'], ['/contact', 'Contact']].map(([href, label]) => (
+            {[['/', 'Home'], ['/about', 'About Farrell'], ['/services', 'Services'], ['/contact', 'Contact']].map(([href, label]) => (
               <Link key={href} href={href} style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', color: 'var(--warm-brown)', textDecoration: 'none' }}>
                 {label}
               </Link>
