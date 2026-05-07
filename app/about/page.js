@@ -57,6 +57,7 @@ export default function About() {
             {[
               { title: 'Certified Birth Doula', body: 'BEST Doula' },
               { title: 'Certified Postpartum Doula', body: 'Birth and Baby University' },
+              { title: 'Child & Baby First Aid / CPR / AED', body: 'American Red Cross' },
             ].map((c) => (
               <div key={c.title} style={{ backgroundColor: 'white', borderRadius: '16px', padding: '1.75rem', border: '1px solid var(--cream-deeper)' }}>
                 <div style={{ width: '32px', height: '3px', backgroundColor: 'var(--sage)', borderRadius: '2px', marginBottom: '1rem' }} />
