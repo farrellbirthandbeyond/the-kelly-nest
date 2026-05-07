@@ -119,29 +119,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── TESTIMONIAL ── */}
-      <section style={{ padding: '5rem 1.5rem', backgroundColor: 'var(--warm-brown)' }}>
-        <div style={{ maxWidth: '720px', margin: '0 auto', textAlign: 'center' }}>
-          <p style={{ fontFamily: 'var(--font-cormorant)', fontSize: 'clamp(1.4rem, 3vw, 2.1rem)', fontWeight: 300, fontStyle: 'italic', color: 'var(--cream)', lineHeight: 1.55, marginBottom: '2rem' }}>
-            "Having Farrell with us during labor changed everything. I went in nervous and overwhelmed — and came out feeling like I could do absolutely anything. She was our anchor."
-          </p>
-          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--sage-light)' }}>
-            — Placeholder Client Name · Denver, CO
-          </p>
-          <Link
-            href="/testimonials"
-            style={{
-              display: 'inline-block', marginTop: '2rem',
-              fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.16em', textTransform: 'uppercase',
-              border: '1px solid var(--sage-light)', color: 'var(--cream)',
-              padding: '0.7rem 1.5rem', borderRadius: '100px', textDecoration: 'none',
-            }}
-          >
-            Read More Stories
-          </Link>
-        </div>
-      </section>
-
       {/* ── CTA BANNER ── */}
       <section style={{ padding: '6rem 1.5rem', textAlign: 'center' }}>
         <div style={{ maxWidth: '600px', margin: '0 auto' }}>
