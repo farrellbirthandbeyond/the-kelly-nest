@@ -79,7 +79,7 @@ export default function Services() {
       <section id="postpartum" style={{ padding: '5rem 1.5rem', backgroundColor: 'var(--cream-dark)', scrollMarginTop: '80px' }}>
         <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '5rem', alignItems: 'start' }}>
           <div style={{
-            aspectRatio: '3/4',
+            aspectRatio: '1/1',
             borderRadius: '60% 40% 45% 55% / 45% 55% 45% 55%',
             overflow: 'hidden',
             position: 'relative',
