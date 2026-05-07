@@ -23,7 +23,7 @@ export default function Services() {
             Services
           </h1>
           <p style={{ fontFamily: 'var(--font-jost)', fontSize: '1rem', lineHeight: 1.8, color: 'var(--stone)', maxWidth: '520px', margin: '0 auto' }}>
-            Every package is tailored to your family's needs. Reach out and we'll find the support that's right for you.
+            Every package is tailored to your family&apos;s needs. Reach out and we&apos;ll find the support that&apos;s right for you.
           </p>
         </div>
       </section>

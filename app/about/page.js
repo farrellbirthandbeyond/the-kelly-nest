@@ -34,7 +34,7 @@ export default function About() {
           <div>
             <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--sage)', marginBottom: '1rem' }}>Meet Your Doula</p>
             <h1 style={{ fontFamily: 'var(--font-cormorant)', fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: 300, color: 'var(--warm-brown)', marginBottom: '1.5rem', lineHeight: 1.05 }}>
-              Hi, I'm Farrell Kelly.
+              Hi, I&apos;m Farrell Kelly.
             </h1>
             <p style={{ fontFamily: 'var(--font-jost)', fontSize: '1rem', lineHeight: 1.85, color: 'var(--stone)', marginBottom: '1.25rem' }}>
               [Placeholder: Farrell's personal story — how she came to doula work, what drew her to supporting families during birth and the postpartum period.]

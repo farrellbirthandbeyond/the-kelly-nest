@@ -101,7 +101,7 @@ export default function Home() {
             <em style={{ fontStyle: 'italic', color: 'var(--terracotta)' }}>rite of passage.</em>
           </h2>
           <p style={{ fontFamily: 'var(--font-jost)', fontSize: '1rem', lineHeight: 1.85, color: 'var(--stone)' }}>
-            Every family deserves a dedicated advocate who will listen without judgment, hold space without agenda, and show up — fully — for the moments that matter most. I believe in the innate wisdom of birthing bodies, and I'm here to help you trust yours.
+            Every family deserves a dedicated advocate who will listen without judgment, hold space without agenda, and show up — fully — for the moments that matter most. I believe in the innate wisdom of birthing bodies, and I&apos;m here to help you trust yours.
           </p>
         </div>
       </section>
@@ -119,7 +119,7 @@ export default function Home() {
               {
                 icon: '🌙',
                 title: 'Birth Doula',
-                desc: 'Continuous labor support from early labor through delivery. I'll be by your side — and your partner's — every step of the way.',
+                desc: "Continuous labor support from early labor through delivery. I'll be by your side — and your partner's — every step of the way.",
                 href: '/services#birth',
               },
               {

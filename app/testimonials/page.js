@@ -56,7 +56,7 @@ export default function Testimonials() {
           borderRadius: '50%', zIndex: 0,
         }} />
         <div style={{ position: 'relative', zIndex: 1 }}>
-          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--sage)', marginBottom: '1rem' }}>From the Families I've Served</p>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--sage)', marginBottom: '1rem' }}>From the Families I&apos;ve Served</p>
           <h1 style={{ fontFamily: 'var(--font-cormorant)', fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', fontWeight: 300, color: 'var(--warm-brown)', marginBottom: '1.25rem' }}>
             Their Stories
           </h1>

@@ -151,7 +151,7 @@ export default function Contact() {
                     value={form.message}
                     onChange={handleChange}
                     rows={5}
-                    placeholder="Tell me a little about yourself, your pregnancy or postpartum journey, and what you're hoping for…"
+                    placeholder="Tell me a little about yourself, your pregnancy or postpartum journey, and what you&apos;re hoping for…"
                     style={{ ...inputStyle, resize: 'vertical', lineHeight: 1.6 }}
                   />
                 </div>
