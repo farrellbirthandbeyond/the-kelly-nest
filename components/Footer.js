@@ -38,7 +38,7 @@ export default function Footer() {
           <h4 style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'var(--terracotta)', marginBottom: '1.25rem' }}>
             Get in Touch
           </h4>
-          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', color: 'var(--warm-brown)', marginBottom: '0.4rem' }}>hello@thekellynest.com</p>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', color: 'var(--warm-brown)', marginBottom: '0.4rem' }}>farrellbirthandbeyond@gmail.com</p>
           <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', color: 'var(--warm-brown)', marginBottom: '1.5rem' }}>Denver Metro Area, CO</p>
           <Link
             href="/contact"

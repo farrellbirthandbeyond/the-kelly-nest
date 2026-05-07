@@ -71,7 +71,7 @@ export default function Contact() {
             </div>
 
             {[
-              { label: 'Email', value: 'hello@thekellynest.com', href: 'mailto:hello@thekellynest.com' },
+              { label: 'Email', value: 'farrellbirthandbeyond@gmail.com', href: 'mailto:farrellbirthandbeyond@gmail.com' },
               { label: 'Phone', value: '(727) 269-4599', href: 'tel:+17272694599' },
               { label: 'Service Area', value: 'Denver Metro Area, CO', href: null },
             ].map((c) => (
