@@ -91,17 +91,17 @@ export default function Home() {
       </section>
 
       {/* ── PHILOSOPHY ── */}
-      <section style={{ padding: '5rem 1.5rem', backgroundColor: 'var(--cream-dark)' }}>
-        <div style={{ maxWidth: '720px', margin: '0 auto', textAlign: 'center' }}>
-          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--sage)', marginBottom: '1rem' }}>
-            My Philosophy
+      <section style={{ padding: '5rem 1.5rem', backgroundColor: 'var(--warm-brown)' }}>
+        <div style={{ maxWidth: '780px', margin: '0 auto', textAlign: 'center' }}>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--sage-light)', marginBottom: '1.25rem' }}>My Philosophy</p>
+          <p style={{ fontFamily: 'var(--font-cormorant)', fontSize: 'clamp(1.4rem, 3vw, 2rem)', fontWeight: 300, fontStyle: 'italic', color: 'var(--cream)', lineHeight: 1.6, marginBottom: '1.75rem' }}>
+            &ldquo;Birth has always been close to my heart.&rdquo;
           </p>
-          <h2 style={{ fontFamily: 'var(--font-cormorant)', fontSize: 'clamp(2rem, 4vw, 3.25rem)', fontWeight: 300, color: 'var(--warm-brown)', lineHeight: 1.2, marginBottom: '1.5rem' }}>
-            Birth is not a medical event.<br />It's a{' '}
-            <em style={{ fontStyle: 'italic', color: 'var(--terracotta)' }}>rite of passage.</em>
-          </h2>
-          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '1rem', lineHeight: 1.85, color: 'var(--stone)' }}>
-            Every family deserves a dedicated advocate who will listen without judgment, hold space without agenda, and show up — fully — for the moments that matter most. I believe in the innate wisdom of birthing bodies, and I&apos;m here to help you trust yours.
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.95rem', lineHeight: 1.85, color: 'var(--cream-dark)', marginBottom: '1.25rem' }}>
+            As a mother of four, I know firsthand the vulnerability, the power, and the emotion that comes with bringing a new life into the world. And when I had the privilege of being present at my grandchildren&apos;s births, something shifted in me — I felt the profound impact of simply being a calm, steady presence in one of life&apos;s most sacred moments.
+          </p>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.95rem', lineHeight: 1.85, color: 'var(--cream-dark)', fontStyle: 'italic' }}>
+            My promise to every family is simple: I will show up fully, hold space gently, and advocate for you fiercely — every step of the way.
           </p>
         </div>
       </section>
