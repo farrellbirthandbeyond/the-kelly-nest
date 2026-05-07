@@ -45,8 +45,8 @@ export default function Services() {
             <div style={{ marginBottom: '2rem' }}>
               <h3 style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--terracotta)', marginBottom: '1rem' }}>What's Included</h3>
               {[
-                '[X] prenatal visits',
-                'On-call support from [X] weeks',
+                '2 prenatal visits',
+                'On-call support starting at 36 weeks',
                 'Continuous labor support',
                 'Immediate postpartum support',
                 'Unlimited phone/text/email access',
