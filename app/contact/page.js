@@ -66,14 +66,14 @@ export default function Contact() {
               </h2>
               <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', lineHeight: 1.75, color: 'var(--stone)' }}>
                 Certified Birth &amp; Postpartum Doula<br />
-                Denver Metro Area, Colorado
+                Denver South Metro Area, Colorado
               </p>
             </div>
 
             {[
               { label: 'Email', value: 'farrellbirthandbeyond@gmail.com', href: 'mailto:farrellbirthandbeyond@gmail.com' },
               { label: 'Phone', value: '(727) 269-4599', href: 'tel:+17272694599' },
-              { label: 'Service Area', value: 'Denver Metro Area, CO', href: null },
+              { label: 'Service Area', value: 'Lone Tree · Highlands Ranch · Parker · Castle Pines · Castle Rock · Littleton · Englewood · DTC', href: null },
             ].map((c) => (
               <div key={c.label} style={{ marginBottom: '1.5rem', paddingBottom: '1.5rem', borderBottom: '1px solid var(--cream-deeper)' }}>
                 <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.6rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--terracotta)', marginBottom: '0.4rem' }}>{c.label}</p>
