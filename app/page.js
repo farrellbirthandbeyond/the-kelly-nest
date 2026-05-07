@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       {/* ── HERO ── */}
-      <section style={{ minHeight: '92vh', display: 'flex', alignItems: 'center', position: 'relative', overflow: 'hidden', padding: '5rem 1.5rem 4rem' }}>
+      <section className="hero-section" style={{ minHeight: '92vh', display: 'flex', alignItems: 'center', position: 'relative', overflow: 'hidden', padding: '5rem 1.5rem 4rem' }}>
         {/* Background blob */}
         <div style={{
           position: 'absolute', top: '-10%', right: '-8%',
@@ -24,7 +24,7 @@ export default function Home() {
           zIndex: 0,
         }} />
 
-        <div style={{ maxWidth: '1100px', margin: '0 auto', width: '100%', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center', position: 'relative', zIndex: 1 }}>
+        <div className="two-col" style={{ maxWidth: '1100px', margin: '0 auto', width: '100%', position: 'relative', zIndex: 1 }}>
           <div className="fade-up">
             <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--sage)', marginBottom: '1.25rem' }}>
               Birth &amp; Postpartum Doula
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
 
           {/* Photo placeholder */}
-          <div className="fade-up fade-up-delay-2" style={{ position: 'relative' }}>
+          <div className="fade-up fade-up-delay-2 hide-mobile" style={{ position: 'relative' }}>
             <div style={{
               width: '100%', aspectRatio: '4/5',
               backgroundColor: 'var(--cream-deeper)',

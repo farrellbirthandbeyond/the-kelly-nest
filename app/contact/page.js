@@ -56,7 +56,7 @@ export default function Contact() {
 
       {/* ── CONTENT ── */}
       <section style={{ padding: '2rem 1.5rem 6rem' }}>
-        <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1.5fr', gap: '5rem', alignItems: 'start' }}>
+        <div className="contact-grid" style={{ maxWidth: '1100px', margin: '0 auto' }}>
 
           {/* Left: Info */}
           <div>

@@ -14,9 +14,9 @@ export default function About() {
           backgroundColor: 'var(--sage-light)', opacity: 0.18,
           borderRadius: '40% 60% 70% 30% / 50% 60% 40% 50%',
         }} />
-        <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '5rem', alignItems: 'center', position: 'relative', zIndex: 1 }}>
+        <div className="two-col" style={{ maxWidth: '1100px', margin: '0 auto', width: '100%', position: 'relative', zIndex: 1 }}>
           {/* Photo */}
-          <div>
+          <div className="hide-mobile">
             <div style={{
               aspectRatio: '3/4',
               backgroundColor: 'var(--cream-deeper)',
