@@ -80,14 +80,11 @@ export default function Services() {
         <div style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '5rem', alignItems: 'start' }}>
           <div style={{
             aspectRatio: '3/4',
-            backgroundColor: 'var(--cream-deeper)',
             borderRadius: '60% 40% 45% 55% / 45% 55% 45% 55%',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            overflow: 'hidden',
+            position: 'relative',
           }}>
-            <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '3rem' }}>🌿</div>
-              <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.75rem', color: 'var(--stone)', marginTop: '0.5rem' }}>Postpartum photo</p>
-            </div>
+            <Image src="/postpartum-photo.jpg" alt="New mother smiling with partner and newborn baby" fill style={{ objectFit: 'cover', objectPosition: 'center' }} />
           </div>
           <div>
             <div style={{ width: '48px', height: '3px', backgroundColor: 'var(--sage)', marginBottom: '1.5rem', borderRadius: '2px' }} />
