@@ -72,7 +72,7 @@ export default function Contact() {
 
             {[
               { label: 'Email', value: 'hello@thekellynest.com', href: 'mailto:hello@thekellynest.com' },
-              { label: 'Phone', value: '[Placeholder phone number]', href: 'tel:+1' },
+              { label: 'Phone', value: '(727) 269-4599', href: 'tel:+17272694599' },
               { label: 'Service Area', value: 'Denver Metro Area, CO', href: null },
             ].map((c) => (
               <div key={c.label} style={{ marginBottom: '1.5rem', paddingBottom: '1.5rem', borderBottom: '1px solid var(--cream-deeper)' }}>
