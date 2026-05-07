@@ -127,26 +127,6 @@ export default function Services() {
         </div>
       </section>
 
-      {/* ── ADD-ONS ── */}
-      <section style={{ padding: '5rem 1.5rem' }}>
-        <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-            <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--sage)', marginBottom: '0.75rem' }}>More Ways to Support You</p>
-            <h2 style={{ fontFamily: 'var(--font-cormorant)', fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', fontWeight: 300, color: 'var(--warm-brown)' }}>Additional Services</h2>
-          </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1.5rem' }}>
-            {[
-              { title: 'Free Consultation', desc: "Not sure what you need? Book a free 30-minute call and let's figure it out together." },
-            ].map((s) => (
-              <div key={s.title} style={{ border: '1px solid var(--cream-deeper)', borderRadius: '16px', padding: '2rem' }}>
-                <h3 style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.4rem', color: 'var(--warm-brown)', marginBottom: '0.75rem' }}>{s.title}</h3>
-                <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.87rem', lineHeight: 1.75, color: 'var(--stone)' }}>{s.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── CTA ── */}
       <section style={{ padding: '4rem 1.5rem 6rem', textAlign: 'center' }}>
         <h2 style={{ fontFamily: 'var(--font-cormorant)', fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', fontWeight: 300, color: 'var(--warm-brown)', marginBottom: '1rem' }}>
