@@ -98,10 +98,10 @@ export default function Services() {
               Postpartum Doula
             </h2>
             <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.95rem', lineHeight: 1.85, color: 'var(--stone)', marginBottom: '1.25rem' }}>
-              [Placeholder: Description of postpartum doula support. The fourth trimester is real — talk about how you help families settle in, recover, and thrive.]
+              As your postpartum doula, I provide compassionate, nonjudgmental support as your family settles into life with a new baby. My role is to help create a calm, supported environment so you can rest, recover, and build confidence during the postpartum transition.
             </p>
             <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.95rem', lineHeight: 1.85, color: 'var(--stone)', marginBottom: '2rem' }}>
-              [Placeholder: Day vs. overnight availability, feeding support, sibling care, light household tasks, emotional support, etc.]
+              Support may include newborn care guidance, feeding support, emotional support, light household help, meal preparation, sibling support, and creating space for parents to feel nurtured and cared for. I believe every family deserves to feel seen, supported, and empowered during the early postpartum period, and I strive to bring a grounding, calming presence into your home.
             </p>
             <div style={{ marginBottom: '2rem' }}>
               <h3 style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--sage)', marginBottom: '1rem' }}>What's Included</h3>
