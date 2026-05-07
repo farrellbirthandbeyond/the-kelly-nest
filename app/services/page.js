@@ -61,7 +61,6 @@ export default function Services() {
             <div style={{ backgroundColor: 'var(--cream-dark)', borderRadius: '16px', padding: '1.5rem', display: 'inline-block' }}>
               <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--stone)', marginBottom: '0.4rem' }}>Investment</p>
               <p style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.75rem', color: 'var(--warm-brown)' }}>$1,150</p>
-              <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.75rem', color: 'var(--stone)', marginTop: '0.4rem', fontStyle: 'italic' }}>Introductory rate</p>
             </div>
           </div>
           <div style={{
