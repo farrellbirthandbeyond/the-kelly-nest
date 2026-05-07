@@ -106,7 +106,7 @@ export default function Services() {
             <div style={{ marginBottom: '2rem' }}>
               <h3 style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--sage)', marginBottom: '1rem' }}>What's Included</h3>
               {[
-                'Newborn care &amp; soothing',
+                'Day &amp; overnight availability',
                 'Infant feeding support',
                 'Light household tasks',
                 'Sibling &amp; family adjustment',
