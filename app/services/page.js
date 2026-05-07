@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Services | The Kelly Nest',
@@ -65,14 +66,11 @@ export default function Services() {
           </div>
           <div style={{
             aspectRatio: '3/4',
-            backgroundColor: 'var(--cream-deeper)',
             borderRadius: '40% 60% 55% 45% / 50% 45% 55% 50%',
-            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            overflow: 'hidden',
+            position: 'relative',
           }}>
-            <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '3rem' }}>🌙</div>
-              <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.75rem', color: 'var(--stone)', marginTop: '0.5rem' }}>Birth doula photo</p>
-            </div>
+            <Image src="/birth-photo.jpg" alt="Partner supporting laboring mother during birth" fill style={{ objectFit: 'cover', objectPosition: 'center top' }} />
           </div>
         </div>
       </section>
