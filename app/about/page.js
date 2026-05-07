@@ -46,6 +46,25 @@ export default function About() {
         </div>
       </section>
 
+      {/* ── PHILOSOPHY ── */}
+      <section style={{ padding: '5rem 1.5rem', backgroundColor: 'var(--warm-brown)' }}>
+        <div style={{ maxWidth: '780px', margin: '0 auto', textAlign: 'center' }}>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.7rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--sage-light)', marginBottom: '1.25rem' }}>My Philosophy</p>
+          <p style={{ fontFamily: 'var(--font-cormorant)', fontSize: 'clamp(1.4rem, 3vw, 2rem)', fontWeight: 300, fontStyle: 'italic', color: 'var(--cream)', lineHeight: 1.6, marginBottom: '1.75rem' }}>
+            &ldquo;Birth has always been close to my heart.&rdquo;
+          </p>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.95rem', lineHeight: 1.85, color: 'var(--cream-dark)', marginBottom: '1.25rem' }}>
+            As a mother of four, I know firsthand the vulnerability, the power, and the emotion that comes with bringing a new life into the world. And when I had the privilege of being present at my grandchildren&apos;s births, something shifted in me — I felt the profound impact of simply being a calm, steady presence in one of life&apos;s most sacred moments. I saw what families truly need in those hours: someone who is peaceful when things feel overwhelming, compassionate when emotions run high, and vocal when a family needs someone in their corner.
+          </p>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.95rem', lineHeight: 1.85, color: 'var(--cream-dark)', marginBottom: '1.25rem' }}>
+            That&apos;s the doula I am. I bring a quiet strength to the room — the kind that comes not just from training, but from lived experience. I&apos;ve been a mother. I&apos;ve stood at the threshold of new life and felt the weight and wonder of it. I know what it means to need support, and I know what it means to give it.
+          </p>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.95rem', lineHeight: 1.85, color: 'var(--cream-dark)', fontStyle: 'italic' }}>
+            My promise to every family is simple: I will show up fully, hold space gently, and advocate for you fiercely — every step of the way.
+          </p>
+        </div>
+      </section>
+
       {/* ── CERTIFICATIONS ── */}
       <section style={{ padding: '4rem 1.5rem', backgroundColor: 'var(--cream-dark)' }}>
         <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
