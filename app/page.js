@@ -31,8 +31,7 @@ export default function Home() {
             </p>
             <h1 style={{ fontFamily: 'var(--font-cormorant)', fontSize: 'clamp(3rem, 6vw, 5.5rem)', fontWeight: 300, color: 'var(--warm-brown)', lineHeight: 1.05, marginBottom: '1.5rem' }}>
               Helping your family{' '}
-              <em style={{ fontStyle: 'italic', color: 'var(--terracotta)' }}>land softly</em>
-              {' '}— wrapping your growing nest in warmth and love.
+              <em style={{ fontStyle: 'italic', color: 'var(--terracotta)' }}>land softly.</em>
             </h1>
             <p style={{ fontFamily: 'var(--font-jost)', fontSize: '1.05rem', lineHeight: 1.75, color: 'var(--stone)', maxWidth: '460px', marginBottom: '2.5rem' }}>
               Farrell Kelly provides compassionate, evidence-based doula support — from your first contraction through those tender early weeks of new parenthood.
