@@ -12,10 +12,7 @@ export default function Footer() {
           <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', lineHeight: 1.7, color: 'var(--stone)', maxWidth: '220px' }}>
             Supporting families through the sacred journey of birth and beyond.
           </p>
-          <div style={{ display: 'flex', gap: '1rem', marginTop: '1.25rem' }}>
-            <a href="#" style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--sage)', textDecoration: 'none' }}>Instagram</a>
-            <a href="#" style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--sage)', textDecoration: 'none' }}>Facebook</a>
-          </div>
+
         </div>
 
         {/* Navigation */}

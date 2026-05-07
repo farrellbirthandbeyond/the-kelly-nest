@@ -85,13 +85,7 @@ export default function Contact() {
               </div>
             ))}
 
-            <div style={{ marginTop: '2rem' }}>
-              <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--terracotta)', marginBottom: '0.75rem' }}>Follow Along</p>
-              <div style={{ display: 'flex', gap: '1rem' }}>
-                <a href="#" style={{ fontFamily: 'var(--font-jost)', fontSize: '0.8rem', color: 'var(--sage)', textDecoration: 'none' }}>Instagram →</a>
-                <a href="#" style={{ fontFamily: 'var(--font-jost)', fontSize: '0.8rem', color: 'var(--sage)', textDecoration: 'none' }}>Facebook →</a>
-              </div>
-            </div>
+
           </div>
 
           {/* Right: Form */}
