@@ -120,7 +120,8 @@ export default function Services() {
             </div>
             <div style={{ backgroundColor: 'white', borderRadius: '16px', padding: '1.5rem', display: 'inline-block', boxShadow: '0 2px 16px rgba(42,31,26,0.06)' }}>
               <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--stone)', marginBottom: '0.4rem' }}>Investment</p>
-              <p style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.75rem', color: 'var(--warm-brown)' }}>[Placeholder pricing]</p>
+              <p style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.75rem', color: 'var(--warm-brown)' }}>$35/hr</p>
+              <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.75rem', color: 'var(--stone)', marginTop: '0.4rem' }}>Overnight shifts · 10pm–6am</p>
             </div>
           </div>
         </div>
