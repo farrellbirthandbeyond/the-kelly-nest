@@ -84,7 +84,7 @@ export default function Services() {
             overflow: 'hidden',
             position: 'relative',
           }}>
-            <Image src="/postpartum-photo.jpg" alt="New mother smiling with partner and newborn baby" fill style={{ objectFit: 'cover', objectPosition: 'center' }} />
+            <Image src="/postpartum-photo.jpg" alt="New mother smiling with partner and newborn baby" fill style={{ objectFit: 'cover', objectPosition: 'left center' }} />
           </div>
           <div>
             <div style={{ width: '48px', height: '3px', backgroundColor: 'var(--sage)', marginBottom: '1.5rem', borderRadius: '2px' }} />
