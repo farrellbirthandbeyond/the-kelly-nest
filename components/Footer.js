@@ -39,7 +39,7 @@ export default function Footer() {
             Get in Touch
           </h4>
           <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', color: 'var(--warm-brown)', marginBottom: '0.4rem' }}>farrellbirthandbeyond@gmail.com</p>
-          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', color: 'var(--warm-brown)', marginBottom: '1.5rem' }}>Lone Tree · Highlands Ranch · Parker<br />Castle Pines · Castle Rock · Littleton<br />Englewood · DTC &amp; surrounding areas</p>
+          <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.85rem', color: 'var(--warm-brown)', marginBottom: '1.5rem' }}>Lone Tree · Highlands Ranch · Parker · Centennial<br />Castle Pines · Castle Rock · Littleton<br />Englewood · DTC &amp; surrounding areas</p>
           <Link
             href="/contact"
             style={{
