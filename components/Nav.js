@@ -39,7 +39,7 @@ export default function Nav() {
       <div style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 1.5rem', height: '72px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         {/* Logo */}
         <Link href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
-          <Image src="/logo.png" alt="The Kelly Nest" width={220} height={110} style={{ objectFit: 'contain' }} priority />
+          <Image src="/logo.png" alt="The Kelly Nest" width={160} height={80} style={{ objectFit: 'contain' }} priority />
         </Link>
 
         {/* Desktop Nav */}
