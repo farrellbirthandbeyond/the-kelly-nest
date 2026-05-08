@@ -61,7 +61,7 @@ export default function Services() {
             </div>
             <div style={{ backgroundColor: 'var(--cream-dark)', borderRadius: '16px', padding: '1.5rem', display: 'inline-block' }}>
               <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.65rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--stone)', marginBottom: '0.4rem' }}>Investment</p>
-              <p style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.75rem', color: 'var(--warm-brown)' }}>$1,150</p>
+              <p style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.75rem', color: 'var(--warm-brown)' }}>$1,250</p>
             </div>
           </div>
           <div className="hide-mobile" style={{
