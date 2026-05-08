@@ -10,9 +10,20 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('sending');
-    // TODO: wire up to Formspree, Resend, or your preferred email service
-    // For now, simulate a short delay
-    setTimeout(() => setStatus('success'), 1200);
+    try {
+      const res = await fetch('https://formspree.io/f/mbdwazbo', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+      if (res.ok) {
+        setStatus('success');
+      } else {
+        setStatus('error');
+      }
+    } catch {
+      setStatus('error');
+    }
   };
 
   const inputStyle = {
@@ -174,6 +185,11 @@ export default function Contact() {
                 <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.75rem', color: 'var(--stone)', textAlign: 'center', marginTop: '1rem', lineHeight: 1.6 }}>
                   I respond within 24–48 hours. All inquiries are kept private.
                 </p>
+                {status === 'error' && (
+                  <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.8rem', color: 'var(--terracotta)', textAlign: 'center', marginTop: '0.75rem' }}>
+                    Something went wrong. Please try again or email me directly at farrellbirthandbeyond@gmail.com
+                  </p>
+                )}
               </form>
             )}
           </div>
