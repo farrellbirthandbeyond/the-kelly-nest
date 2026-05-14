@@ -64,7 +64,7 @@ export default function Services() {
               <p style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.75rem', color: 'var(--warm-brown)' }}>$1,250</p>
             </div>
           </div>
-          <div className="hide-mobile" style={{
+          <div style={{
             aspectRatio: '3/4',
             borderRadius: '40% 60% 55% 45% / 50% 45% 55% 50%',
             overflow: 'hidden',
@@ -78,7 +78,7 @@ export default function Services() {
       {/* ── POSTPARTUM DOULA ── */}
       <section id="postpartum" style={{ padding: '5rem 1.5rem', backgroundColor: 'var(--cream-dark)', scrollMarginTop: '80px' }}>
         <div className="two-col-start" style={{ maxWidth: '1100px', margin: '0 auto' }}>
-          <div className="hide-mobile" style={{
+          <div style={{
             aspectRatio: '1/1',
             borderRadius: '60% 40% 45% 55% / 45% 55% 45% 55%',
             overflow: 'hidden',
