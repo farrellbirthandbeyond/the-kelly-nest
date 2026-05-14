@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export const metadata = {
   title: 'About Farrell | The Kelly Nest',
   description: 'Meet Farrell Kelly — certified birth and postpartum doula serving families in the Denver metro area.',
@@ -16,18 +18,13 @@ export default function About() {
         }} />
         <div className="two-col" style={{ maxWidth: '1100px', margin: '0 auto', width: '100%', position: 'relative', zIndex: 1 }}>
           {/* Photo */}
-          <div className="hide-mobile">
-            <div style={{
-              aspectRatio: '3/4',
-              backgroundColor: 'var(--cream-deeper)',
-              borderRadius: '50% 50% 45% 55% / 50% 50% 50% 50%',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-            }}>
-              <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: '3rem' }}>🪺</div>
-                <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.75rem', color: 'var(--stone)', marginTop: '0.5rem' }}>Photo of Farrell</p>
-              </div>
-            </div>
+          <div className="hide-mobile" style={{
+            aspectRatio: '1/1',
+            borderRadius: '50% 50% 45% 55% / 50% 50% 50% 50%',
+            overflow: 'hidden',
+            position: 'relative',
+          }}>
+            <Image src="/farrell.jpg" alt="Farrell Kelly holding a newborn" fill style={{ objectFit: 'cover', objectPosition: 'center top' }} />
           </div>
 
           {/* Text */}
