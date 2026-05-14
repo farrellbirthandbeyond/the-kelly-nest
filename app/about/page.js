@@ -18,7 +18,7 @@ export default function About() {
         }} />
         <div className="two-col" style={{ maxWidth: '1100px', margin: '0 auto', width: '100%', position: 'relative', zIndex: 1 }}>
           {/* Photo */}
-          <div className="hide-mobile" style={{
+          <div style={{
             aspectRatio: '1/1',
             borderRadius: '50% 50% 45% 55% / 50% 50% 50% 50%',
             overflow: 'hidden',

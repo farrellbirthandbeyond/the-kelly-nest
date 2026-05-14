@@ -62,7 +62,7 @@ export default function Home() {
           </div>
 
           {/* Photo */}
-          <div className="fade-up fade-up-delay-2 hide-mobile" style={{ position: 'relative' }}>
+          <div className="fade-up fade-up-delay-2" style={{ position: 'relative' }}>
             <div style={{
               width: '100%', aspectRatio: '4/5',
               borderRadius: '50% 50% 40% 60% / 55% 45% 55% 45%',
