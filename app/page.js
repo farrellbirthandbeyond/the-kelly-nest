@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import ServiceCards from '../components/ServiceCards';
 
 export default function Home() {
@@ -60,19 +61,15 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Photo placeholder */}
+          {/* Photo */}
           <div className="fade-up fade-up-delay-2 hide-mobile" style={{ position: 'relative' }}>
             <div style={{
               width: '100%', aspectRatio: '4/5',
-              backgroundColor: 'var(--cream-deeper)',
               borderRadius: '50% 50% 40% 60% / 55% 45% 55% 45%',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
               overflow: 'hidden',
+              position: 'relative',
             }}>
-              <div style={{ textAlign: 'center', padding: '2rem' }}>
-                <div style={{ fontSize: '3rem', marginBottom: '0.75rem' }}>🪺</div>
-                <p style={{ fontFamily: 'var(--font-jost)', fontSize: '0.75rem', color: 'var(--stone)', letterSpacing: '0.1em' }}>Photo of Farrell</p>
-              </div>
+              <Image src="/farrell-hero.jpg" alt="Farrell Kelly with a newborn" fill style={{ objectFit: 'cover', objectPosition: 'center top' }} />
             </div>
             {/* Floating badge */}
             <div style={{
