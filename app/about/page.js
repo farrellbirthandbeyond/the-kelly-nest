@@ -24,7 +24,7 @@ export default function About() {
             overflow: 'hidden',
             position: 'relative',
           }}>
-            <Image src="/farrell.jpg" alt="Farrell Kelly holding a newborn" fill style={{ objectFit: 'cover', objectPosition: 'center top' }} />
+            <Image src="/farrell.jpg" alt="Farrell Kelly holding a newborn" fill style={{ objectFit: 'cover', objectPosition: 'center bottom' }} />
           </div>
 
           {/* Text */}
